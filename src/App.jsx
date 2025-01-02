@@ -1,6 +1,6 @@
 import "./app.scss";
 import Portfolio from "./components/Portfolio/Portfolio";
-import Contact from "./components/contact/COntact.Jsx";
+import Contact from "./components/contact/Contact.Jsx";
 import Cursor from "./components/cursor/Cursor";
 import Hero from "./components/hero/Hero";
 import { NavBar } from "./components/navbar/NavBar";
