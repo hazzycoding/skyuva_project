@@ -5,21 +5,21 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "Happy DUO",
-    img: "https://img.freepik.com/premium-vector/cellphones-with-avatar-man-woman_24911-15516.jpg?ga=GA1.1.34626213.1735529019&semt=ais_hybrid",
-    desc: "Connect and share effortlessly with Happy DUO, a social platform that fosters a meaningful realtionships through fun, interative features",
+    title: "Qnext",
+    img: "https://files.oaiusercontent.com/file-L9PkPfUnx3y6ScxteLEyWc?se=2025-01-03T14%3A25%3A53Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D3bfae122-1a12-45a4-adc9-1bcfff20e17d.webp&sig=LhzMykIJpej7qUs5mVZddjj%2BeAIAwmoZsrbjGz48Eao%3D",
+    desc: "Long waits are a thing of the past with Qnext. This innovative app streamlines time management by letting users grab a digital token, leave the queue, and receive notifications when it’s their turn. Perfect for cafes, clinics, and service-based businesses, Qnext ensures a smoother, more efficient customer experience.",
   },
   {
     id: 2,
-    title: "Qnext",
-    img: "https://img.freepik.com/premium-vector/people-queue-order-food-drink-modern-coffehouse-barista-customer-coffee-shop_142963-2475.jpg?ga=GA1.1.34626213.1735529019&semt=ais_hybrid",
-    desc: "Boost efficiency with Qnext, a powerful app for automating tasks and managing customer interactions, perfect for businesses of all sizes",
+    title: "Happy Duo",
+    img: "https://files.oaiusercontent.com/file-1NYjzFr3Sst3VpeL77rk4m?se=2025-01-03T14%3A09%3A43Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D83192063-4b3b-42fe-87be-e91fbccccec8.webp&sig=fvA2UPV44%2B4hK4csLpYU3qhOpZ7f7t/DpEnxKJk2dwY%3D",
+    desc: "Love is in the air with Happy Duo, our unique dating app designed to foster meaningful connections. With a focus on simplicity, security, and compatibility, Happy Duo makes finding your perfect match effortless and enjoyable. It’s not just about meeting people—it’s about meeting the right people.",
   },
   {
     id: 3,
-    title: "Star Shop",
-    img: "https://img.freepik.com/free-vector/user-rating-feedback-customer-reviews-cartoon-web-icon-e-commerce-online-shopping-internet-buying-trust-metrics-top-rated-product_335657-778.jpg?ga=GA1.1.34626213.1735529019&semt=ais_hybrid",
-    desc: "Shop smarter with Star Shop, an e-commerce platform designed for seamless buying and selling experiences for businesses and customers alike",
+    title: "Shopz",
+    img: "https://files.oaiusercontent.com/file-T5nvU3LaoY2k5osKB13pgA?se=2025-01-03T14%3A24%3A44Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D1004ba2d-9965-4a38-a969-e12ab226a5d4.webp&sig=75m0uFAz/DRCrfb8MP6LkvwmtU/7VvHNetwG1pLRxRo%3D",
+    desc: "Discover trustworthy reviews and share your experiences with Shopz. This app is your go-to platform for rating shops, restaurants, and services, helping others make informed decisions. Whether it’s a hidden gem or a must-avoid spot, your feedback helps build a smarter community.",
   },
 ];
 

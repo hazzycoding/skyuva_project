@@ -24,15 +24,14 @@ section {
     height: 100vh;
     overflow: hidden;
 }
-
 @mixin mobile {
-    @media (max-width: 800px) {
+    @media (max-width: 738px) {
         @content;
     }
 }
 
 @mixin tablet {
-    @media (max-width: 1609px) {
+    @media (max-width: 1150px) {
         @content;
     }
 }

@@ -61,51 +61,43 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Key Features</h2>
-          <p>
-            Seamless Development Experience Utilizing FlutterFlow and Firebase,
-            We ensure a smooth and efficient development journey for your
-            projects
+          <h2>Business Growth Consulting</h2>
+          <p className="text">
+            Empowering Your Business with Tech Our expertise goes beyond
+            development. We offer business consulting services to help you
+            leverage technology for growth. From strategy to execution, we work
+            with you to ensure your tech investments drive measurable results.
           </p>
-          <button>Go</button>
+          <button className="goButton">Discover How</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Key Features</h2>
-          <p>
-            Custom Application Development Skyuva crafts custom application that
-            are built specifically to meet your business objectives and user
-            needs, ensureing maximum impact
+          <h2>Product Ideation & Prototyping</h2>
+          <p className="text">
+            Bringing Your Ideas to Life Have an idea but don’t know where to
+            start? Skyuva helps you refine, prototype, and validate your
+            concepts. Our collaborative approach ensures your product is
+            market-ready with user-friendly designs and cutting-edge features.
+            Together, we make innovation simple.
           </p>
-          <button>Go</button>
+          <button className="goButton">Learn More</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Key Features</h2>
-          <p>
-            Innocative App Development At Skyuva, we leverage top-tier
-            technologies like FLutterflow and Supabase to craft innovative
-            mobile apps and websites that elevate user
+          <h2> SaaS Solutions & Tools</h2>
+          <p className="text">
+            Smart Tools for Everyday Problems Our SaaS products like Qnext and
+            Happy Duo solve real-world challenges. From managing wait times to
+            connecting people, Skyuva creates tools that improve lives. Explore
+            our solutions or let us help you build your own SaaS platform to
+            address your customers’ needs.
           </p>
-          <button>Go</button>
+          <button className="goButton">Explore Our Tools</button>
         </motion.div>
-        {/* <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div> */}
       </motion.div>
     </motion.div>
   );

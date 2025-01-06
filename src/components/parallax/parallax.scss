@@ -11,6 +11,8 @@
 
   h1 {
     font-size: 100px;
+      z-index: 1;
+      color: white;
 
     @include mobile {
       font-size: 72px;
@@ -47,13 +49,13 @@
     }
   }
 
-  .stars {
-    background-image: url("/stars.png");
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-  }
+.stars {
+  position: absolute;
+  width: 150%;
+  height: 100%;
+  background-image: url('/stars.png'); // Replace with your actual image path
+  background-repeat: repeat-x; // Makes the image repeat horizontally
+  background-size: cover; // Ensures the background fits properly
+  background-position: top center; // Adjusts the vertical positioning of the stars
+}
 }

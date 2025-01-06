@@ -11,7 +11,7 @@ const Parallax = ({ type }) => {
   });
 
   const yText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
-  const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  const yBg = useTransform(scrollYProgress, [0, 1], ["0px", "500px"]);
 
   return (
     <div
@@ -37,7 +37,10 @@ const Parallax = ({ type }) => {
           })`,
         }}
       ></motion.div>
-      <motion.div style={{ x: yBg }} className="stars"></motion.div>
+      <motion.div
+        style={{ x: yBg, backgroundPositionX: yBg }}
+        className="stars"
+      ></motion.div>
     </div>
   );
 };

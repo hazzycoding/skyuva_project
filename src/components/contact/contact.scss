@@ -1,7 +1,7 @@
 @import "../../app.scss";
 
 .contact {
-  height: 100%;
+  height: 100vh;
   max-width: 1366px;
   margin: auto;
   display: flex;
@@ -11,13 +11,13 @@
 
   @include mobile {
     width: 100%;
-    height: 50%;
+    height: 100%;
     padding: 10px;
     flex-direction: column;
   }
   @include tablet {
     width: 100%;
-    height: 50%;
+    height: 100%;
     padding: 10px;
     flex-direction: column;
   }
@@ -32,13 +32,13 @@
       gap: 20px;
       text-align: center;
       align-items: center;
-      margin-top: 70px;
+      margin-top: 10px;
     }
     @include tablet {
       gap: 20px;
       text-align: center;
       align-items: center;
-      margin-top: 70px;
+      margin-top: 10px;
     }
 
     h1 {
@@ -63,7 +63,7 @@
     position: relative;
 
     @include mobile {
-      padding: 50px;
+      padding: 20px;
       width: 100%;
     }
     @include tablet {
@@ -74,7 +74,6 @@
     .phoneSvg {
       stroke: orange;
       position: absolute;
-      padding-left: 65px;
       margin: auto;
       z-index: -1;
 
@@ -88,30 +87,30 @@
     }
 
     .responsivephoneSvg {
-      stroke: orange;
-      position: absolute;
-      margin: auto;
-      z-index: -1;
-      display: none;
-    
-      @include mobile {
-        display: block;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%; // Adjust as needed
-        max-width: 350px; // Optional, set max width
-      }
-    
-      @include tablet {
-        display: block;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%; // Adjust for tablet
-        max-width: 350px;
-      }
-    }
+  stroke: orange;
+  position: absolute;
+  margin: auto;
+  z-index: -1;
+  display: none;
+
+  @include mobile {
+    display: block;
+    top: 50%;
+    left: 50%;
+  transform: translate(-40%, -50%);
+    width: 100%; // Adjust as needed
+    max-width: 350px; // Optional, set max width
+  }
+
+  @include tablet {
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    width: 80%; // Adjust for tablet
+    max-width: 350px;
+  }
+}
 
     form {
       display: flex;
@@ -127,10 +126,11 @@
         color: white;
         border-radius: 5px;
         width: 500px;
+        
 
         @include mobile {
           padding: 10px;
-          width: 400px;
+          width: 300px;
         }
         @include tablet {
           padding: 10px;
@@ -147,7 +147,7 @@
 
         @include mobile {
           padding: 10px;
-          width: 200px;
+          width: 150px;
         }
         @include tablet {
           padding: 10px;
