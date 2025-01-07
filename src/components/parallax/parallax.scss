@@ -48,12 +48,21 @@
   }
 
   .stars {
-    background-image: url("/stars.png");
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
+  .stars {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 200%;
+      /* Wide enough for smooth scrolling */
+      height: 200%;
+      background-image: url("/stars.png");
+      background-size: contain;
+      background-repeat: repeat;
+      /* Ensures seamless tiling */
+      z-index: 0;
+      /* Place it behind other content */
+      pointer-events: none;
+      /* Prevent it from affecting interactions */
+    }
   }
 }
