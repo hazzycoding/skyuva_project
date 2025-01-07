@@ -11,6 +11,8 @@
 
   h1 {
     font-size: 100px;
+      z-index: 1;
+      color: white;
 
     @include mobile {
       font-size: 72px;
@@ -47,22 +49,13 @@
     }
   }
 
-  .stars {
-  .stars {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 200%;
-      /* Wide enough for smooth scrolling */
-      height: 200%;
-      background-image: url("/stars.png");
-      background-size: contain;
-      background-repeat: repeat;
-      /* Ensures seamless tiling */
-      z-index: 0;
-      /* Place it behind other content */
-      pointer-events: none;
-      /* Prevent it from affecting interactions */
-    }
-  }
+.stars {
+  position: absolute;
+  width: 150%;
+  height: 100%;
+  background-image: url('/stars.png'); // Replace with your actual image path
+  background-repeat: repeat-x; // Makes the image repeat horizontally
+  background-size: cover; // Ensures the background fits properly
+  background-position: top center; // Adjusts the vertical positioning of the stars
+}
 }
