@@ -5,7 +5,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "Qnext",
+    title: "Qnext...",
     img: "https://files.oaiusercontent.com/file-L9PkPfUnx3y6ScxteLEyWc?se=2025-01-03T14%3A25%3A53Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D3bfae122-1a12-45a4-adc9-1bcfff20e17d.webp&sig=LhzMykIJpej7qUs5mVZddjj%2BeAIAwmoZsrbjGz48Eao%3D",
     desc: "Long waits are a thing of the past with Qnext. This innovative app streamlines time management by letting users grab a digital token, leave the queue, and receive notifications when it’s their turn. Perfect for cafes, clinics, and service-based businesses, Qnext ensures a smoother, more efficient customer experience.",
   },
